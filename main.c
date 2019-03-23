@@ -3,8 +3,9 @@
 
 int main()
 {
-int i,s,t,x,y;
-scanf("%d%d",x,y);
-printf("%d%d",x,y);
-return 0;
+    int x, y;
+    scanf("%d%d", &x, &y);
+    printf("%d%d", x, y);
+
+    return 0;
 }
