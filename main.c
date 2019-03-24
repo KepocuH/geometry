@@ -4,8 +4,9 @@
 int main()
 {
     int x, y;
-    scanf("%d%d", &x, &y);
-    printf("%d%d", x, y);
+    FILE *Makefile;
+    fscanf(stdin,"%d%d", &x, &y);
+    fprintf(stdout,"%d%d", x, y);
 
     return 0;
 }
